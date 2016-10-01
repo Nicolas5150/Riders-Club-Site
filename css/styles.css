@@ -13,14 +13,13 @@ body{
 .wrapper{
   position: fixed;
   left: 50%;
-
 }
 
 .container{
 	position: relative;
 	left:-50%;
+	width: 700px;
 }
-
 
 /* Header, Nav, And Logo */
 #logo img{
@@ -50,7 +49,7 @@ nav ul li a{
 	letter-spacing: -0.7px;
 	padding-left: 35px;
 	padding-top: 6px;
-	padding-right: 25px;
+	padding-right: 21px;
   position: relative;
   text-transform: uppercase;
   text-decoration: none;
@@ -70,7 +69,7 @@ nav ul li a:hover{
 .leftSideContent{
 	float:left;
 	padding-left: 20px;
-	width: 100px;
+	width: 30%;
 }
 
 .leftSideContent img{
@@ -81,13 +80,15 @@ nav ul li a:hover{
 
 /* Right Side Content */
 h3{
+	color: #00008B;
 	padding-bottom: 10px;
 }
 
 .rightSideContent{
 	float:right;
 	padding-top: 5px;
-	padding-right: 25px;
+	padding-right: 5px;
+	width: 60%;
 }
 
 .textContent{
