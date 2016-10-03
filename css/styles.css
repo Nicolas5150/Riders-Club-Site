@@ -1,10 +1,9 @@
 @import url("reset.css");
 
 * {
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	margin:0;
+	font-family: "Verdana", "Helvetica", sans-serif;
 	font-size: 1.0em;
-	margin: 0;
+	margin:0;
 }
 body{
 	background-color: grey
@@ -14,14 +13,24 @@ body{
 .wrapper{
   margin-left: auto;
 	margin-right: auto;
-	padding-left: 15%;
-	padding-right: 15%;
-	width: 800px;
+	width: 780px;
 }
-/* Header, Nav, And Logo */
-#logo img{
-	display: block;
+
+/*Nav and Logo */
+#logo{
+	background-image: url("../img/header.jpg");
+	height: 225px;
 	width: 100%;
+}
+
+#logo h1{
+	float: left;
+	color: white;
+	font-weight: 500;
+	padding-top: 155px;
+	padding-left: 105px;
+	position: relative;
+	text-align: center;
 }
 
 .nav{
@@ -36,7 +45,7 @@ body{
 
 .nav ul li{
   float: left;
-	padding-left: 8%;
+	padding-left: 7%;
 }
 
 .nav ul li a{
@@ -44,9 +53,9 @@ body{
   display: block;
   font-size: 9px;
 	font-weight: 500;
-  height: 16px;
+  height: 18px;
 	letter-spacing: -0.1px;
-	padding-top: 6px;
+	padding-top: 8px;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -56,7 +65,7 @@ body{
 }
 
 .links{
-	color: black;
+	color: grey;
 }
 
 /* Main Content */
@@ -73,32 +82,34 @@ body{
 }
 
 .leftSideContent img{
-
 	padding-top: 35px;
 	padding-bottom: 25px;
 }
 
 /* Right Side Content */
-h3{
+.rightSideContent h3{
 	color: #00008B;
+	font-weight: 500;
 	padding-bottom: 10px;
 }
 
-h4{
+.rightSideContent h4{
 	color: #00008B;
+	font-weight: 500;
 	padding-bottom: 10px;
 }
 
 .rightSideContent{
 	float:right;
 	padding-top: 5px;
-	padding-right: 2px;
+	padding-right: 8px;
 	width: 60%;
 }
 
 .textContent{
+	color: grey;
 	font-size: 13px;
-	letter-spacing: .5px;
+	letter-spacing: -.4px;
 	line-height: 15px;
 	padding-bottom: 20px;
 }
@@ -136,5 +147,5 @@ h4{
 }
 
 .footerContent img{
-	width: 800px;
+	width: 781px;
 }
